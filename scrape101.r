@@ -1,7 +1,7 @@
 # Output: Get some text following the substring "About" in a company's homepage
 # Input: Provide the list of companies to scrape in the line below
 
-companies <- c('hp','ebay','microsoft','cisco','google','facebook')
+companies <- c('hp','ebay','microsoft','cisco','google','oracle')
 
 
 # How does the program work?
