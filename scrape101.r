@@ -1,7 +1,9 @@
-# hp <- html('http://www.hp.com')
-# ht <- html_text(hp)
-# startPos <- regexpr("About",ht)
-# substr(ht,start=startPos,stop=startPos+100)
+# Usage: Specify the list of companies to scrape on the companies
+
+# 1. Get the html for a list of companies (the program prefixes http://www., and suffixes .com)
+# 2. Print the lengths of the html
+# 3. Find the text "About" in the html, and print the 100 characters following
+
 
 require(rvest)
 companies <- c('hp','ebay','microsoft','cisco','google','facebook')
